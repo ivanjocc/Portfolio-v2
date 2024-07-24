@@ -22,8 +22,12 @@
     <link rel="stylesheet" href="css/icon.min.css" />
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/responsive.css" />
-    <link rel="stylesheet" href="demos/business/business.css" />
+    <!-- <link rel="stylesheet" href="demos/business/business.css" /> -->
+    <link rel="stylesheet" href="demos/restaurant/restaurant.css" />
+    <!-- <link rel="stylesheet" href="demos/elearning/elearning.css" /> -->
 </head>
+
+<script type="text/javascript" src="js/custom-link.js"></script>
 
 <body data-mobile-nav-style="full-screen-menu" data-mobile-nav-bg-color="#252840">
 
@@ -40,13 +44,13 @@
             data-header-hover="light">
             <div class="container-fluid">
                 <div class="col-auto col-xxl-3 col-lg-2 me-lg-0 me-auto">
-                    <a class="navbar-brand" href="demo-it-business.html">
-                        <img src="images/demo-it-business-logo-white.png"
-                            data-at2x="images/demo-it-business-logo-white@2x.png" alt="" class="default-logo">
-                        <img src="images/demo-it-business-logo-black.png"
-                            data-at2x="images/demo-it-business-logo-black@2x.png" alt="" class="alt-logo">
-                        <img src="images/demo-it-business-logo-black.png"
-                            data-at2x="images/demo-it-business-logo-black@2x.png" alt="" class="mobile-logo">
+                    <a class="navbar-brand" href="#">
+                        <img src="./images/1/logo-remove.png"
+                            data-at2x="./images/1/logo-remove.png" alt="Logo" class="default-logo">
+                        <img src="./images/1/logo-remove.png"
+                            data-at2x="./images/1/logo-remove.png" alt="Logo" class="alt-logo">
+                        <img src="./images/1/logo-remove.png"
+                            data-at2x="./images/1/logo-remove.png" alt="Logo" class="mobile-logo">
                     </a>
                 </div>
                 <div class="col-auto col-xxl-6 col-lg-8 menu-order position-static">
@@ -59,33 +63,24 @@
                     </button>
                     <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
                         <ul class="navbar-nav">
-                            <li class="nav-item"><a href="demo-it-business.html" class="nav-link">Home</a></li>
-                            <li class="nav-item"><a href="demo-it-business-about.html" class="nav-link">About</a></li>
+                            <li class="nav-item"><a class="nav-link nav-scroll-link" href="#home"
+                                    data-target="home">Home</a></li>
+                            <li class="nav-item"><a class="nav-link nav-scroll-link" href="#about"
+                                    data-target="about">About</a></li>
                             <li class="nav-item dropdown dropdown-with-icon-style02">
-                                <a href="demo-it-business-services.html" class="nav-link">Services</a>
-                                <i class="fa-solid fa-angle-down dropdown-toggle" id="navbarDropdownMenuLink"
-                                    role="button" data-bs-toggle="dropdown" aria-expanded="false"></i>
-                                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                    <li><a href="demo-it-business-services-details.html"><i
-                                                class="bi bi-briefcase"></i>Data analytics</a></li>
-                                    <li><a href="demo-it-business-services-details.html"><i
-                                                class="bi bi-clipboard-data"></i>Finance consulting</a></li>
-                                    <li><a href="demo-it-business-services-details.html"><i
-                                                class="bi bi-peace"></i>Technology innovation</a></li>
-                                    <li><a href="demo-it-business-services-details.html"><i
-                                                class="bi bi-bar-chart-line"></i>Digital commerce</a></li>
-                                    <li><a href="demo-it-business-services-details.html"><i
-                                                class="bi bi-send-check"></i>Artificial intelligence</a></li>
-                                    <li><a href="demo-it-business-services-details.html"><i
-                                                class="bi bi-globe2"></i>Cloud computing</a></li>
-                                </ul>
+                                <a class="nav-link nav-scroll-link" href="#skills" data-target="skills">Skills</a>
                             </li>
-                            <li class="nav-item"><a href="demo-it-business-case-studies.html" class="nav-link">Case
-                                    studies</a></li>
-                            <li class="nav-item"><a href="demo-it-business-blog.html" class="nav-link">Blog</a></li>
-                            <li class="nav-item"><a href="demo-it-business-contact.html" class="nav-link">Contact</a>
-                            </li>
+                            <li class="nav-item"><a class="nav-link nav-scroll-link" href="#projects"
+                                    data-target="projects">Projects</a></li>
+                            <li class="nav-item"><a class="nav-link nav-scroll-link" href="#download"
+                                    data-target="download">Download CV</a></li>
                         </ul>
+                    </div>
+                </div>
+                <div class="col-auto col-xxl-3 col-lg-2 text-end d-none d-sm-flex">
+                    <div class="header-icon">
+                        <div class="header-button"><a href="mailto:ivanjose_04@hotmail.com"
+                                class="btn btn-large btn-transparent-white-light btn-rounded text-transform-none border-1">Send me a message<i class="fa-solid fa-arrow-right"></i></a></div>
                     </div>
                 </div>
             </div>
@@ -557,8 +552,7 @@
                     src="./images/1/download.webp" data-bottom-top="transform: rotate(10deg) translateX(50px)"
                     data-top-bottom="transform:rotate(-10deg) translateX(-50px)" alt="" /></div>
             <div class="position-absolute top-minus-150px right-50px z-index-minus-2 d-none d-lg-block"><img
-                    src="./images/1/download-2.webp"
-                    data-bottom-top="transform: rotate(20deg) translateY(50px)"
+                    src="./images/1/download-2.webp" data-bottom-top="transform: rotate(20deg) translateY(50px)"
                     data-top-bottom="transform:rotate(-20deg) translateY(-50px)" alt="" /></div>
             <div class="row justify-content-center">
                 <div class="col-12 col-xl-8 text-center mb-3">
@@ -587,8 +581,7 @@
                 <!-- start copyright -->
                 <div
                     class="col-lg-5 pt-15px pb-15px md-pt-0 fs-15 order-2 order-lg-1 text-center text-lg-start last-paragraph-no-margin">
-                    <p>© 2024 Crafto is Proudly Powered by <a href="https://www.themezaa.com/" target="_blank"
-                            class="text-dark-gray fw-500 text-decoration-line-bottom">ThemeZaa</a></p>
+                    <p id="copyright">© 2024 Copyright by Ivan</p>
                 </div>
                 <!-- end copyright -->
                 <!-- start footer menu -->
@@ -607,7 +600,7 @@
     <!-- Scroll -->
     <div class="scroll-progress d-none d-xxl-block">
         <a href="#" class="scroll-top" aria-label="scroll">
-            <span class="scroll-text">Go to top</span><span class="scroll-line"><span class="scroll-point"></span></span>
+            <span class="scroll-text">Go top</span><span class="scroll-line"><span class="scroll-point"></span></span>
         </a>
     </div>
 
@@ -615,6 +608,7 @@
     <script type="text/javascript" src="js/jquery.js"></script>
     <script type="text/javascript" src="js/vendors.min.js"></script>
     <script type="text/javascript" src="js/main.js"></script>
+    <script type="text/javascript" src="js/custom-date.js"></script>
 </body>
 
 </html>l
